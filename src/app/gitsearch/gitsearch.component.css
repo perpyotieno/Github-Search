@@ -3,7 +3,7 @@
       100deg,
       rgba(164, 42, 30, 0.5),
       rgba(54, 54, 54, 0.8)
-    ), url(src/assets/background1.jpg);
+    ), url('/assets/background1.jpg');
   height: 100vh;
   max-height: 100%;
   background-position:center;
@@ -41,10 +41,10 @@ button {
   background-color: transparent;
   color: #fff;
   cursor: pointer;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   font-family: sans-serif;
   font-family: "Exo 2", sans-serif;
-  margin-top: 20px;
+
 }
 button:hover {
   background-color: #cc0404;
@@ -53,18 +53,21 @@ button:hover {
   background-color: #a60000;
   border: none;
   width: 120px;
-  height: 50px;
+
   font-family: sans-serif;
   font-family: "Exo 2", sans-serif;
-  margin-top: 20px;
+
 
 }
 input {
-  height: 50px;
+
   border: none;
   padding-left: 20px;
   width: 300px;
-  margin-top: 20px;
+
+}
+input,button{
+  padding: 20px;
 }
 li,span,p{
   font-family: sans-serif;

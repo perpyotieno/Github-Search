@@ -13,8 +13,8 @@ import {FormsModule} from '@angular/forms';
   styleUrls: ['./gitsearch-form.component.css']
 })
 export class GitsearchFormComponent implements OnInit {
-  details: any [];
-  repos:any [];
+  details: any ;
+  repos:any;
   username: string;
 
   constructor(private gitsearcherService: GitsearcherService) { }

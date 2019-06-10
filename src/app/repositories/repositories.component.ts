@@ -14,8 +14,8 @@ import {FormsModule} from '@angular/forms';
   styleUrls: ['./repositories.component.css']
 })
 export class RepositoriesComponent implements OnInit {
-  details: any[];
-  repos: any[];
+  details: any;
+  repos: any;
   username:string;
 
 

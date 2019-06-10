@@ -12,6 +12,8 @@ import { AppComponent } from './app.component';
 import { GitsearchFormComponent } from './gitsearch-form/gitsearch-form.component';
 import { GitsearchComponent } from 'src/app/gitsearch/gitsearch.component';
 import { RepositoriesComponent } from 'src/app/repositories/repositories.component';
+import { ColourDirective } from './colour.directive';
+import { DateCountPipe } from './date-count.pipe';
 
 
 const routes:Routes=[
@@ -24,7 +26,9 @@ const routes:Routes=[
     AppComponent,
     GitsearchFormComponent,
     GitsearchComponent,
-    RepositoriesComponent
+    RepositoriesComponent,
+    ColourDirective,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,

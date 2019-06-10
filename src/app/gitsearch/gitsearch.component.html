@@ -3,7 +3,7 @@
     <img src="src/assets/gitlogo.png" alt="Github Logo">
     <nav>
 
-      <p><a routerLink='/repositories' routerLinkActive='active'>Repositories</a></p>
+      <p appColour><a routerLink='/repositories' routerLinkActive='active'>Repositories</a></p>
 
     </nav>
     <router-outlet></router-outlet>
@@ -63,8 +63,7 @@
       <p>{{repo.description}}</p><a href="{{repo.html_url}}" target="_blank">View this project on Github</a>
     </div>
   </div>
-
-
+  <p>You loaded this page on </p>
 
 
 

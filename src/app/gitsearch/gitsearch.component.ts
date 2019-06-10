@@ -7,7 +7,7 @@ import { RepositoriesComponent } from 'src/app/repositories/repositories.compone
 
 import { AppComponent } from 'src/app/app.component';
 import {FormsModule} from '@angular/forms';
-import {RoutingModule} from './routing/routing.module'
+import {RoutingModule} from 'src/app/routing/routing.module'
 
 
 @Component({
@@ -16,9 +16,10 @@ import {RoutingModule} from './routing/routing.module'
   styleUrls: ['./gitsearch.component.css']
 })
 export class GitsearchComponent implements OnInit {
-  details: any[];
-  repos: any[];
+  details: any;
+  repos: any;
   username:string;
+  
 
   constructor(private gitsearcherService: GitsearcherService) { }
 
