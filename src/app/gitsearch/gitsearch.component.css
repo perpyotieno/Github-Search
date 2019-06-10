@@ -48,7 +48,7 @@ button {
 button:hover {
   background-color: #cc0404;
 }
-/*.submit {
+submit {
   background-color: #a60000;
   border: none;
   width: 120px;
@@ -106,7 +106,7 @@ li,span,p{
 .stylerepos:hover{
     box-shadow: 0 0 10px white;
 }
-.profilecontainer{
+/*.profilecontainer{
   display: flex;
   justify-content:center;
   margin:2%;
