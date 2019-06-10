@@ -25,7 +25,7 @@ getProfileInfo(username){
 getRepoInfo(){
   return this.http.get("https://api.github.com/users/" + this.username + "/repos" + "?access_token=" + this.clientdetails)
 }
-// updateProfile(username:string){
-//   this.username = username;
-// }
-//  }
+updateProfile(username:string){
+  this.username = username;
+}
+ }
