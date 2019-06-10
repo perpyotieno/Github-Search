@@ -1,7 +1,7 @@
-// import { Injectable } from '@angular/core';
-// import { HttpClient } from '@angular/common/http';
-// import { GitsearchFormComponent } from 'src/app/gitsearch-form/gitsearch-form.component';
-// import { RepositoriesComponent } from 'src/app/repositories/repositories.component'
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { GitsearchFormComponent } from 'src/app/gitsearch-form/gitsearch-form.component';
+import { RepositoriesComponent } from 'src/app/repositories/repositories.component'
 // import { AppComponent } from 'src/app/app.component';
 // import { GitsearchComponent } from 'src/app/gitsearch/gitsearch.component';
 // import {FormsModule} from '@angular/forms';
