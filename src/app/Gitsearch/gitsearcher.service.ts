@@ -17,11 +17,11 @@ export class GitsearcherService {
   console.log("service is now ready");
 
 }
-// getProfileInfo(username){
-//   console.log(this.username)
-//   return this.http.get("https://api.github.com/users/" + username + "?access_token=" + this.clientdetails)
-//
-// }
+getProfileInfo(username){
+  console.log(this.username)
+  return this.http.get("https://api.github.com/users/" + username + "?access_token=" + this.clientdetails)
+
+}
 // getRepoInfo(){
 //   return this.http.get("https://api.github.com/users/" + this.username + "/repos" + "?access_token=" + this.clientdetails)
 // }
