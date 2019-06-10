@@ -132,3 +132,23 @@ li,span,p{
 span{
   padding-left: 5px;
 }
+.arrow {
+    position: absolute;
+    margin-top: 150px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50);
+    color: White;
+    font-size: 3em;
+    font-weight: 900;
+    animation: 0.2s change infinite;
+}
+/* @keyframes change{
+  0% {
+    margin-top: -10px;
+}
+50% {
+    margin-bottom: -90px;
+    text-shadow: 0 0 10px black;
+}
+} */
