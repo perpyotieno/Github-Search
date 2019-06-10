@@ -37,7 +37,7 @@
 
   font-size: 1.3em;
 }
-/*button {
+button {
   background-color: transparent;
   color: #fff;
   cursor: pointer;
@@ -48,7 +48,7 @@
 button:hover {
   background-color: #cc0404;
 }
-.submit {
+/*.submit {
   background-color: #a60000;
   border: none;
   width: 120px;
