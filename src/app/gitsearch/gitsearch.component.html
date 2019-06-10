@@ -9,14 +9,14 @@
     <router-outlet></router-outlet>
   </div>
   <div class="Forms">
-    <h1>Crafts that make you <em>feel</em> good.</h1>
-    <p>100% Home Made Crafts.</p>
+    <h1>Github google <em>search</em>!</h1>
+    <p>App that searches for github users</p>
     <form (ngSubmit)="findUser()" #gitsearchForm="ngForm">
       <div class="form-group">
 
         <input type="text" required class="" id="username" [(ngModel)]="username" name="username" placeholder="Enter Github Username">
 
-        <button type="submit" class="submit" name="button">Submit</button><span class="subscribe-span">Click to know more about github search </span>
+        <button type="submit" class="submit" name="button">Search</button><span class="subscribe-span">Click to know more about github search </span>
       </div>
     </form>
 
@@ -35,7 +35,7 @@
         <p><a href="{{details.html_url}}" target="_blank">View profile on Github</a></p>
       </div>
       <div class="profilebox2">
-        <p> {{details.name}} ({{details.login}})</p>
+        <p> <b>{{details.name}}</b> ({{details.login}})</p>
 
         <p *ngIf="details.company">Works at {{details.company}}</p>
         <p *ngIf="details.location">Located at {{details.location}}</p>

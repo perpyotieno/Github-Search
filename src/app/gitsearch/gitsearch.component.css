@@ -44,15 +44,20 @@ button {
   font-size: 1.5rem;
   font-family: sans-serif;
   font-family: "Exo 2", sans-serif;
+  margin-top: 20px;
 }
 button:hover {
   background-color: #cc0404;
 }
-submit {
+.submit {
   background-color: #a60000;
   border: none;
   width: 120px;
   height: 50px;
+  font-family: sans-serif;
+  font-family: "Exo 2", sans-serif;
+  margin-top: 20px;
+
 }
 input {
   height: 50px;
@@ -93,18 +98,15 @@ li,span,p{
   margin-left: 120px;
   color: white;
 }
-.submit{
-  font-family: sans-serif;
-  font-family: "Exo 2", sans-serif;
-}
 .stylerepos{
   background-color:rgba(211,211,211,0.5);
   padding: 20px;
   margin-bottom: 20px;
-  box-shadow: 0 0 10px black;
+  box-shadow: 0 0 10px white;
 }
 .stylerepos:hover{
-    box-shadow: 0 0 10px white;
+
+  box-shadow: 0 0 10px black;
 }
 .profilecontainer{
   display: flex;
